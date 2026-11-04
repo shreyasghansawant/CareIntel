@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.DS_Store
+
+# Environment & Secrets (Never commit credentials)
+.env
+.env.*
+*.env
+!*.env.example
+!**/.env.example
+*.log
+
+# Pytest / Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Alembic
+alembic/versions/__pycache__/
