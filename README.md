@@ -4,11 +4,19 @@
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![Alembic](https://img.shields.io/badge/Alembic-Migrations-red?style=flat)](https://alembic.sqlalchemy.org)
+[![Railway](https://img.shields.io/badge/Railway-Deployed-0B0D0E?style=flat&logo=railway&logoColor=white)](https://frontend-production-2e85.up.railway.app)
 [![Tests](https://img.shields.io/badge/Tests-22%20Passing-brightgreen?style=flat)](#testing)
 
 > **CareIntel AI** is an end-to-end healthcare lead intelligence platform that collects publicly available clinic information, analyzes digital positioning and patient acquisition potential with AI, identifies high-value business opportunities, scores lead priority, and generates hyper-personalized outreach drafts.
+
+---
+
+### 🌐 Live Production Links
+
+- **Live Web Application**: **[https://frontend-production-2e85.up.railway.app](https://frontend-production-2e85.up.railway.app)**
+- **Interactive API Documentation (Swagger)**: **[https://backend-production-a95f7.up.railway.app/docs](https://backend-production-a95f7.up.railway.app/docs)**
+- **Backend Health Check**: **[https://backend-production-a95f7.up.railway.app/api/v1/health](https://backend-production-a95f7.up.railway.app/api/v1/health)**
+- **Public GitHub Repository**: **[https://github.com/shreyasghansawant/CareIntel](https://github.com/shreyasghansawant/CareIntel)**
 
 ---
 
