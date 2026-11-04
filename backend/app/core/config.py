@@ -19,10 +19,13 @@ class Settings(BaseSettings):
     def assemble_db_url(cls, v: str) -> str:
         """
         Railway and other PaaS providers supply PostgreSQL connection strings
-        starting with 'postgres://'. SQLAlchemy 2.0 requires 'postgresql://'.
+        starting with 'postgres://'. Ensure compatibility with psycopg2/psycopg dialect.
         """
-        if isinstance(v, str) and v.startswith("postgres://"):
-            return v.replace("postgres://", "postgresql://", 1)
+        if isinstance(v, str):
+            if v.startswith("postgres://"):
+                return v.replace("postgres://", "postgresql+psycopg2://", 1)
+            elif v.startswith("postgresql://") and not v.startswith("postgresql+"):
+                return v.replace("postgresql://", "postgresql+psycopg2://", 1)
         return v
     
     # CORS
